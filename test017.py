@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#pickle模块使用
+#使用pickle模块将数据对象保存到文件
 import pickle
 
 data1 = {'a':[1,2.0,3,4+6], 'b':('string',u'Unicode string'), 'c':None}
