@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # -*- coding: UTF-8 -*-
-#求平方根
+#求平方根,只适用于正数
 
 num = float(input('请输入一个数字:'))
 num_sqrt = num ** 0.5
