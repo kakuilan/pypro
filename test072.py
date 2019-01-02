@@ -31,3 +31,7 @@ hello_4('Mars','Howdy')
 hello_4('Mars','Howdy','...')
 hello_4('Mars', punctuation='.')
 hello_4('Mars', greeting='Top of the morning to ya')
+
+#参数分配
+params = {'name':'Sir Robin', 'greeting':'Well met'}
+hello_3(**params)
