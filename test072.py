@@ -11,6 +11,8 @@ def hello_2(name, greeting):
 def hello_3(greeting='Hello', name='world'):
   print('{}, {}!'.format(greeting, name))
 
+def hello_4(name, greeting='Hello', punctuation='!'):
+  print('{}, {}{}'.format(greeting, name, punctuation))
 
 hello_1('Hello', 'world')
 hello_2('Hello', 'world')
@@ -23,3 +25,9 @@ hello_3()
 hello_3('Greetings')
 hello_3('Greetings', 'universe')
 
+#多种调用方式
+hello_4('Mars')
+hello_4('Mars','Howdy')
+hello_4('Mars','Howdy','...')
+hello_4('Mars', punctuation='.')
+hello_4('Mars', greeting='Top of the morning to ya')
