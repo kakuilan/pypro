@@ -12,3 +12,6 @@ class Secretive:
 
 s = Secretive()
 s.accessible()
+
+#强行访问私有方法
+s._Secretive__inacessible()
