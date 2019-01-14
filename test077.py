@@ -22,3 +22,13 @@ s = SPAMFilter()
 s.init()
 print(s.filter(['SPAM','SPAM','SPAM','eggs','bacon','SPAM']))
 
+#继承判断
+print(issubclass(SPAMFilter, Filter))
+print(issubclass(Filter, SPAMFilter))
+print(SPAMFilter.__bases__)
+print(isinstance(s, SPAMFilter))
+print(isinstance(s, Filter))
+print(isinstance(s, str))
+
+
+
