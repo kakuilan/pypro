@@ -17,3 +17,6 @@ tc = TalkingCalculator()
 tc.calculate('1 + 2 * 3')
 tc.talk()
 
+#检查方法是否存在
+print(hasattr(tc, 'talk'))
+print(hasattr(tc, 'fnord'))
